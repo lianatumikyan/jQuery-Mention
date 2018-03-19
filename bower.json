@@ -1,0 +1,20 @@
+{
+  "name": "jQuery-Mention",
+  "homepage": "https://github.com/Anush17/jQuery-Mention",
+  "authors": [
+    "aaa17 <achakhoyan99@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.3.1"
+  }
+}
