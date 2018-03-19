@@ -1,3 +1,0 @@
-/*
- All logic for jQuery mention plugin must be here
- */

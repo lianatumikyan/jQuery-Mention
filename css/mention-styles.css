@@ -1,8 +1,4 @@
-/*
- All styles for jQuery mention plugin must be here
- */
-
-#main {
+.main {
     margin: 40px;
 }
 
@@ -13,4 +9,5 @@
     border-radius: 4px;
     box-sizing: border-box;
     background-color: #f0f0f0;
+
 }
