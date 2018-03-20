@@ -1,0 +1,33 @@
+{
+  "name": "jQuery-Mention",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Mariam13/jQuery-Mention",
+  "authors": {
+    "name": "Mariam",
+    "email": "<mariam13martirosyan@gmail.com>"
+  },
+  "contributors": [
+    {
+      "name": "Anush",
+      "email": "<achakhoyan99@gmail.com>"
+    },
+    {
+      "name": "Liana",
+      "email": "<ltumikyan@gmail.com>"
+    }
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "bugs": "https://github.com/Mariam13/jQuery-Mention/issues",
+  "dependencies": {
+    "jquery": "3.3.1"
+  }
+}
