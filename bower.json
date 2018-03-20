@@ -2,20 +2,21 @@
   "name": "jQuery-Mention",
   "homepage": "https://github.com/Mariam13/jQuery-Mention",
   "authors": {
-    "name":  "Mariam",
+    "name": "Mariam",
     "email": "<mariam13martirosyan@gmail.com>"
   },
   "contributors": [
     {
-      "name":  "Anush",
+      "name": "Anush",
       "email": "<achakhoyan99@gmail.com>"
     },
     {
-      "name":  "Liana",
+      "name": "Liana",
       "email": "<ltumikyan@gmail.com>"
     }
   ],
   "description": "",
+  "version": "0.0.1",
   "main": "",
   "license": "MIT",
   "ignore": [
