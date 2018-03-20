@@ -2,7 +2,8 @@
   "name": "jQuery-Mention",
   "homepage": "https://github.com/Mariam13/jQuery-Mention",
   "authors": [
-    "Mariam  <mariam13martirosyan@gmail.com>"
+    "name  :  Mariam",
+    "email : <mariam13martirosyan@gmail.com>"
   ],
   "Contributors": [
     "Anush  <achakhoyan99@gmail.com>",
@@ -18,11 +19,11 @@
     "test",
     "tests"
   ],
-  "bugs": {
-    "issue-1": "https://github.com/Mariam13/jQuery-Mention/issues/1",
-    "issue-2": "https://github.com/Mariam13/jQuery-Mention/issues/2",
-    "issue-3": "https://github.com/Mariam13/jQuery-Mention/issues/3"
-  },
+  "bugs": [
+    "https://github.com/Mariam13/jQuery-Mention/issues/1",
+    "https://github.com/Mariam13/jQuery-Mention/issues/2",
+    "https://github.com/Mariam13/jQuery-Mention/issues/3"
+  ],
   "dependencies": {
     "jquery": "3.3.1"
   }
