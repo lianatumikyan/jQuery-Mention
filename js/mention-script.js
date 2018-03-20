@@ -1,14 +1,12 @@
 'use strict';
 (function () {
     //fucntion detected the changes using .bind method
-    function bindEvents()
-    {
-        $(this).find('.mention-box').on('keyup', function () {
+    function bindEvents() {
+        $(this.textArea).on('keyup', function () {
             console.log('onevent');
         });
     }
-    bindEvents.bind(this);
-    
+
     function init() {
         let users = [
                 {
@@ -76,7 +74,15 @@
                     image: 'https://icons8.com/icon/23242/circled-user-male-skin-type-1-2',
                     id: '13'
                 }
-            ]
+            ],
+            elements = {
+            textArea: $('.mention-box')
+             };
+
+            if(elements.textArea){
+                bindEvents.call(elements);
+            }
     }
+
     init();
 })();
