@@ -1,11 +1,11 @@
 'use strict';
 (function () {
     //fucntion detected the changes using .bind method
-    function eventBind() {
-        $('.mention-box').bind('keyup', function () {
-            console.log("Onchange event");
-        })
+    function bindEvents()
+    {
+        $(this).find('.mention-box').on('keyup', function () {
+            console.log('onevent');
+        });
     }
-
-    eventBind();
+    bindEvents.bind(this);
 })();
