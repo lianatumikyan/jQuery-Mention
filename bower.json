@@ -1,5 +1,6 @@
 {
   "name": "jQuery-Mention",
+  "version": "0.0.1",
   "homepage": "https://github.com/Mariam13/jQuery-Mention",
   "authors": {
     "name": "Mariam",
@@ -16,7 +17,6 @@
     }
   ],
   "description": "",
-  "version": "0.0.1",
   "main": "",
   "license": "MIT",
   "ignore": [
@@ -26,9 +26,7 @@
     "test",
     "tests"
   ],
-  "bugs": [
-    "https://github.com/Mariam13/jQuery-Mention/issues"
-  ],
+  "bugs": "https://github.com/Mariam13/jQuery-Mention/issues",
   "dependencies": {
     "jquery": "3.3.1"
   }
