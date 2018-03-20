@@ -1,0 +1,12 @@
+.main {
+    margin: 40px;
+}
+
+.mention-box {
+    margin: 8px 0;
+    display: inline-block !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
