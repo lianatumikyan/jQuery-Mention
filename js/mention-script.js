@@ -80,8 +80,7 @@
              };
 
             if(elements.textArea){
-                let bind = bindEvents.bind(elements);
-                bind();
+                bindEvents.call(elements);
             }
     }
 
