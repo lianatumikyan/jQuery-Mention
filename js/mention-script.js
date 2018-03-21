@@ -11,19 +11,17 @@
     }
 
     function showUsers(args) {
-        console.log(args);
         let usersElem = args.showUsers,
             users = args.users;
         usersElem.empty();
         users = users.length > 10 ? users.slice(0, 10) : users;
         for (let i = 0; i < users.length; i++) {
-            let name = users[i]['name'];
-            usersElem.append('<div class="selectUser">' + name + '</div>');
+            usersElem.append('<div class="selectUser">' + users[i]['name'] + '</div>');
         }
     }
 
     function init() {
-        let variables = {
+        let defaults = {
             users: [
                 {
                     name: 'Jewel',
@@ -95,8 +93,8 @@
             showUsers: $('.showUsers')
              };
 
-            if(variables.textArea){
-                bindEvents.call(variables);
+            if(defaults.textArea){
+                bindEvents.call(defaults);
             }
     }
 
