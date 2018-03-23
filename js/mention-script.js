@@ -3,8 +3,9 @@
     //fucntion detected the changes using .bind method
     function bindEvents() {
         let self = this;
-        $(this.textArea).on('keyup', function (e) {
-            if(e.key === '@'){
+        $(this.textArea).on('keyup click', function (e) {
+            let position = $(this).prop("selectionStart");
+                if(e.key === '@'){
                 showUsers(self);
                 }
         });
