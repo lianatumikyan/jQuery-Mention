@@ -1,20 +1,21 @@
 'use strict';
 (function () {
-    //fucntion detected the changes using .bind method
+    //function detected the changes using .bind method
     function bindEvents() {
-        let self = this;
-        $(this.textArea).on('keyup click', function (e) {
-            let position = $(this).prop("selectionStart");
-                if(e.key === '@'){
-                showUsers(self);
-                }
-        });
+        let getPos = getPosition.bind(this);
+        $(this.textArea).on('keyup click', getPos);
     }
 
-    function showUsers(args) {
-        let usersElem = args.showUsers,
-            users = args.users;
-        usersElem.empty();
+    function getPosition(e) {
+        let position = $(this).prop("selectionStart");
+        if(e.key === '@'){
+            showUsers.call(this);
+        }
+    }
+
+    function showUsers() {
+        let usersElem = this.showUsers,
+            users = this.users;
         users = users.length > 10 ? users.slice(0, 10) : users;
         for (let i = 0; i < users.length; i++) {
             usersElem.append('<div class="selectUser">' + users[i]['name'] + '</div>');
