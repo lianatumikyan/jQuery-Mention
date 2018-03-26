@@ -2,15 +2,19 @@
 (function () {
     //function detected the changes using .bind method
     function bindEvents() {
-        let getPos = getPosition.bind(this);
-        $(this.textArea).on('keyup click', getPos);
+        let bindKeyUp = bindTextAreaKeyUp.bind(this);
+        $(this.textArea).on('keyup click', bindKeyUp);
     }
 
-    function getPosition(e) {
-        let position = $(this).prop("selectionStart");
-        if(e.key === '@'){
-            showUsers.call(this);
-        }
+    function bindTextAreaKeyUp(e) {
+        this.position = getPosition.call(this);
+         if(e.key === '@'){
+             showUsers.call(this);
+         }
+    }
+
+    function getPosition() {
+        return this.textArea.prop("selectionStart");
     }
 
     function showUsers() {
