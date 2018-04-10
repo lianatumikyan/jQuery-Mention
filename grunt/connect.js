@@ -8,7 +8,7 @@ module.exports = {
         },
         livereload: {
             options: { livereload: true },
-            files: ['public/**/*'],
+            files: ['public/**/*']
         }
     }
 };
